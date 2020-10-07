@@ -1,4 +1,4 @@
-Click N Share
+# Click N Share
 
 Website: http://click-n-share.vercel.app hosted on Vercel.
 
@@ -16,6 +16,6 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-# Pull Request
+## Pull Request
 Every pull request will create a staging site to view on Vercel. 
 
