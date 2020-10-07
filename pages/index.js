@@ -3,6 +3,7 @@ import styles from '../styles/Dashboard.module.css'
 import ReactPlayer from 'react-player'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faComment, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import Link from 'next/link'
 
 
 export default function Dashboard() {
@@ -22,9 +23,10 @@ export default function Dashboard() {
         <p className={styles.description}>
           Create, View, Share Snippets
         </p>
-        <div>
-          Group 1, Group 2, Group 3
-        </div>
+        <p>
+          <Link href="/share"> Ready to share? </Link>
+        </p>
+
         {/* <div className={styles.grid}> */}
           {/* <div className={styles.column} >
           <p>Group 1</p>
